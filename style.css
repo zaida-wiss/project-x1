@@ -10,11 +10,11 @@ header {
   text-align: center;
   background: #46415f;
   color: #fff;
-  padding: 0rem;
+  padding: 1rem;
 }
 
 main {
-  padding: 0rem;
+  padding: 1%;
 }
 
 h1 {
@@ -29,11 +29,27 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
 .profile {
   display: block;
   margin: 1rem auto;       /* bilden centrerad på mobil */
   width: 150px;
-  border-radius: 50%;
+  border-radius: 80px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
@@ -54,9 +70,9 @@ ul {
 @media (min-width: 768px) {
 header {
   text-align: center;
-  background: #6552c5;
+  background: #46415f;
   color: #fff;
-  padding: 0rem;
+  padding: 3%;
 }
 
   main {
@@ -79,6 +95,7 @@ header {
   }
 }
 
-h2 {
+footer {
   text-align: center;
 }
+
