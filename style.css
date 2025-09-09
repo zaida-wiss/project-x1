@@ -1,0 +1,76 @@
+/* === Bas (mobil först) === */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #46415f;
+  color: #fff;
+  padding: 0rem;
+}
+
+main {
+  padding: 0rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  margin: 1rem auto;       /* bilden centrerad på mobil */
+  width: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+section {
+  padding: 1rem;
+}
+
+ul {
+  display: block;
+  width: fit-content;      /* blockets bredd anpassas efter innehållet */
+  margin: 0.5rem auto;     /* centrerar blocket på mobil */
+  text-align: left;        /* texten inuti alltid vänsterställd */
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+/* === Desktop (≥768px): två kolumner === */
+@media (min-width: 768px) {
+header {
+  text-align: center;
+  background: #6552c5;
+  color: #fff;
+  padding: 0rem;
+}
+
+  main {
+    max-width: 1000px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .profile {
+    margin: 0;             /* bilden vänster i sin kolumn */
+    width: 150px;
+  }
+
+  ul {
+    margin: 0;             /* textblocket vänster i sin kolumn */
+    width: auto;
+  }
+}
+
+h2 {
+  text-align: center;
+}
