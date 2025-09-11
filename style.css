@@ -55,25 +55,26 @@ main{
 }
 /*FOOTER*/
 footer{
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 10px;
   background-color: #46415f;
   color: white;
 }
 footer h2{
- margin: 30px 90px 0px 90px;
+ margin: 10px 90px 0px 90px;
   line-height: 60px;
   font-weight: normal;
 }
 footer ul{
   list-style: none;
   
-  margin: 30px;
+  margin: 0px;
   display: flex;
   gap: 30px;;
 }
 footer a{
   color: white;
+  margin: 0px 0px 0px 70px;
 
 }
 footer a:hover{
