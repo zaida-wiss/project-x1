@@ -1,101 +1,64 @@
-/* === Bas (mobil först) === */
+
 body {
   font-family: 'Poppins', sans-serif;
-  margin: 0;
+  padding: 10;
   background: #f8f9fa;
   color: #333;
+  margin:0;
 }
 
 header {
-  text-align: center;
+  padding: 30px 10px 0px 10px;
+  font-size: 30px;
   background: #46415f;
   color: #fff;
-  padding: 1rem;
+  align-content: center;
+  height: 280px;
+  
+}
+  
+header img {
+  width: 200px;
+  border-radius: 50%;
 }
 
-main {
-  padding: 1%;
+nav{
+  background-color: rgb(0, 7, 5);
+  height: 30px;
+}
+nav a:hover{
+  color: blue;
 }
 
-h1 {
-  text-align: center;
+header h1{
+  font-size: 37px;
+  alignment-baseline: 14px;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
 }
 
-h2 {
-  text-align: center;
+img {
+  border: black 3px solid;
 }
 
-h3 {
-  text-align: center;
+main{
+  margin: 30px;
 }
 
-h4 {
-  text-align: center;
+p{
+  line-height: 10px;
+  font-weight: light;
 }
 
-h5 {
-  text-align: center;
+h2{
+  line-height: 4px;
+  font-weight: normal;
 }
 
-h6 {
-  text-align: center;
+h3{
+  line-height: 4px;
+  font-weight: normal;
 }
-
-p {
-  text-align: center;
-}
-
-.profile {
-  display: block;
-  margin: 1rem auto;       /* bilden centrerad på mobil */
-  width: 150px;
-  border-radius: 80px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-section {
-  padding: 1rem;
-}
-
-ul {
-  display: block;
-  width: fit-content;      /* blockets bredd anpassas efter innehållet */
-  margin: 0.5rem auto;     /* centrerar blocket på mobil */
-  text-align: left;        /* texten inuti alltid vänsterställd */
-  list-style-position: inside;
-  padding-left: 0;
-}
-
-/* === Desktop (≥768px): två kolumner === */
-@media (min-width: 768px) {
-header {
-  text-align: center;
-  background: #46415f;
-  color: #fff;
-  padding: 3%;
-}
-
-  main {
-    max-width: 1000px;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1rem;
-  }
-
-  .profile {
-    margin: 0;             /* bilden vänster i sin kolumn */
-    width: 150px;
-  }
-
-  ul {
-    margin: 0;             /* textblocket vänster i sin kolumn */
-    width: auto;
-  }
-}
-
-footer {
-  text-align: center;
-}
-
