@@ -8,7 +8,7 @@ body {
 
 /*HEADER*/
 header {
-  padding: 30px 10px 0px 10px;
+  padding: 30px 0px 0px 0px;
   font-size: 30px;
   background: #46415f;
   color: #fff;
@@ -29,6 +29,7 @@ header h1{
 nav{
   background-color: rgb(0, 7, 5);
   display: flex;
+  margin: 0px 0px 0px 0px;
 }
 nav ul{
   list-style: none;
@@ -92,7 +93,18 @@ p{
   font-weight: ;
 }
 
+h1{
+  line-height: 4px;
+  font-weight: normal;
+  padding: 15px 0px 0px 0px; 
+}
+h2{
+  line-height: 4px;
+  font-weight: normal;
+  padding: 50px 0px 0px 0px; 
+}
 h3{
   line-height: 4px;
   font-weight: normal;
+  padding: 15px 0px 0px 0px; 
 }
