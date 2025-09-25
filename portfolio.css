@@ -111,12 +111,11 @@ form {
     background-color: hotpink;
     padding: 20px;
 }
-footer.box {
-    grid-area: footer.box;
+footer {
+    grid-area: footer;
     grid-row: 4;
     grid-column: 1/-1;
     background-color:green;
-    grid-area: footer.box;
     color: white;
     justify-items: center;
 }
