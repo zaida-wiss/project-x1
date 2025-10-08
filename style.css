@@ -7,6 +7,31 @@ body {
   margin:0;
 }
 
+/*text*/
+p{
+  line-height: 1.2;
+  font-weight: 100;
+  line-height: 1.1em;
+}
+h1{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 4px;
+  font-weight: normal;
+  padding: 15px 0px 0px 0px; 
+}
+h2{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  line-height: 4px;
+  font-weight: normal;
+  justify-content: center;
+  text-align: center;
+}
+h3{
+  line-height: 4px;
+  font-weight: normal;
+  padding: 15px 0px 0px 0px; 
+}
+
 /*HEADER*/
 header {
   padding: 10px;
@@ -29,6 +54,7 @@ header h1{
   margin: 0;
   color: #c9c8ab
 }
+
 
 /*NAVIGATION*/
 nav{
@@ -66,62 +92,16 @@ main{
 }
 
 
-/*FOOTER*/
-footer{
-  padding-top: 5px;
-  padding-bottom: 10px;
-  background-color: #46415f;
-  color: white;
-}
-footer h2{
-  margin: 10px 90px 0px 90px;
-  line-height: 30px;
-  font-weight: normal;
-}
-footer ul{
-  list-style: none;
-  margin: 0px;
-  display: flex;
-  gap: 30px;;
-}
-footer a{
-  color: white;
-  margin: 0px 0px 0px 70px;
-}
-footer a:hover{
-  color: rgb(178, 202, 96);
-}
 
 /*bilder*/
 img {
   border: black 3px solid;
 }
 
-/*text*/
-p{
-  line-height: 1.2;
-  font-weight: 100;
-  line-height: 1.1em;
-}
 
-h1{
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  line-height: 4px;
-  font-weight: normal;
-  padding: 15px 0px 0px 0px; 
-}
-h2{
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  line-height: 4px;
-  font-weight: normal;
-  justify-content: center;
-  text-align: center;
-}
-h3{
-  line-height: 4px;
-  font-weight: normal;
-  padding: 15px 0px 0px 0px; 
-}
+
+
+/* OM MIG */
 
 /*layout*/
 .presentations-container{
@@ -130,9 +110,8 @@ h3{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
-
 .presentations-box1{
   display: block;
   padding: 20px;
@@ -188,25 +167,51 @@ h3{
   width: 1fr;
 }
 
-
-.presentations-container{
-  border-radius: 20px;
-  margin: 30px 0px 30px 0px;
+/* FOOTER */
+footer {
+  text-align: center; 
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #46415f;
+  color: white;
+}
+.footer-links {
+  list-style: none;
+  padding: 0px;
   display: flex;
-  gap: 30px;
+  flex-direction: column;
+}
+
+footer ul {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+footer li {
+  text-align: center;
+  list-style: none;
   justify-content: center;
 }
-.footer-links {
-  display: block;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  justify-content: center;
+footer a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+
   text-align: center;
 }
-.footer-links {
-  justify-content: center;
-  text-align: center;
+footer a:hover{
+  color: rgb(178, 202, 96);
 }
+footer h2{
+  margin: 10px 90px 0px 90px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+
+/* DESKTOP-ANPASSAT */
 
 @media (min-width: 700px) {
   .footer-links {
