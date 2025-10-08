@@ -40,7 +40,6 @@ header {
   color: #fff;
   justify-items: center;
   justify-content: center;
-  
 }
 
 header img {
@@ -88,17 +87,8 @@ nav a:hover{
 
 /*MAIN*/
 main{
-  margin: 0px 90px 10px 90px;
+  margin: 0px 50px 10px 50px;
 }
-
-
-
-/*bilder*/
-img {
-  border: black 3px solid;
-}
-
-
 
 
 /* OM MIG */
@@ -129,7 +119,6 @@ img {
   -5px 6px 43px rgba(3, 7, 18, 0.14),
   -6px 7px 54px rgba(3, 7, 18, 0.14);
 }
-
 .presentations-box2{
   display: block;
   padding: 20px;
@@ -146,7 +135,6 @@ img {
   -4px 4px 33px rgba(3, 7, 18, 0.14),
   -5px 6px 43px rgba(3, 7, 18, 0.14),
   -6px 7px 54px rgba(3, 7, 18, 0.14);
-  width: 1fr;
 }
 .presentations-box3{
   display: block;
@@ -164,7 +152,6 @@ img {
   -4px 4px 33px rgba(3, 7, 18, 0.14),
   -5px 6px 43px rgba(3, 7, 18, 0.14),
   -6px 7px 54px rgba(3, 7, 18, 0.14);
-  width: 1fr;
 }
 
 /* FOOTER */
@@ -214,12 +201,14 @@ footer h2{
 /* DESKTOP-ANPASSAT */
 
 @media (min-width: 700px) {
-  .footer-links {
-    display:flex;
-    flex-direction: row;
-    flex:1;
-    margin: 0px;
-    padding: 10px;
-    gap:15px;
-  }
+
+header {
+  display: flex;
+  align-items: top;
+  justify-content: flex-end;
+}
+h1{
+  justify-items: center;
+}
+
 }
