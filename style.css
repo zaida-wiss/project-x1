@@ -166,7 +166,9 @@ main{
   -5px 6px 43px rgba(3, 7, 18, 0.14),
   -6px 7px 54px rgba(3, 7, 18, 0.14);
 }
-
+main p {
+  text-align: center;
+}
 /* FOOTER */
 footer {
   text-align: center; 
@@ -227,10 +229,8 @@ nav {
 justify-content: left;
 padding: 10px 30px 10px 30px;
 }
-.header-container {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  grid-template-rows: 1fr;
+header {
+  position: non-sticky;
 }
 .profilbild {
   grid-column: 2;
