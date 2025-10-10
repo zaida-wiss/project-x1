@@ -61,6 +61,19 @@ nav{
   flex-direction: row;
   justify-content: center;
 }
+
+/* Make header + nav stick to top together */
+.topbar {
+  position: sticky;
+  background-color: #46415F;
+  top: 0;
+  z-index: 999; /* sit above page content */
+}
+
+.topbar header,
+.topbar nav {
+  background: inherit; /* ensure nav/header background is used */
+}
 nav ul{
   list-style: none;
   padding: 0px 0px 0px 90px;
@@ -86,6 +99,8 @@ nav a:hover{
 /*MAIN*/
 main{
   margin: 0px 50px 10px 50px;
+  /* ensure content isn't hidden behind the sticky topbar */
+  padding-top: 10px;
 }
 
 
@@ -206,17 +221,16 @@ p {
 ul {
   font-size: 20px;
 }
-nav {
+.nav {
   display: flex;
 
-justify-content: left;
-padding: 10px 30px 10px 30px;
+  justify-content: left;
+  padding: 10px 30px 10px 30px;
 }
-header-container {
+.header-container {
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-template-rows: 1fr;
-  border: yellow 2px solid;
 }
 .profilbild {
   grid-column: 2;
